@@ -12,5 +12,3 @@
 */
 
 Route::get('/', 'PostsController@index')->name('top');
-# ルートにアクセスした時ポストコントローラーのindexに飛ばす
-# 名前をつけるname('top')
